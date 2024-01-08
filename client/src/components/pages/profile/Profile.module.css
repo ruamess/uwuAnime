@@ -1,0 +1,74 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .profile__page {
+  padding: 30px;
+  background: rgb(31, 31, 31);
+  width: 90vw;
+  height: 100vh;
+}
+.wrapper .profile__page .watch__profile {
+  font-size: 24px;
+}
+.wrapper .profile__page .profile__header {
+  margin-top: 20px;
+  border: 1px solid rgb(17, 17, 17);
+}
+.wrapper .profile__page .profile__header .profile__user {
+  background: #A040D3;
+  box-shadow: 0 10px 30px rgba(191, 61, 203, 0.34);
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .profile__page .profile__header .profile__user .username {
+  font-size: 24px;
+  font-weight: 700;
+}
+.wrapper .profile__page .profile__header .profile__info {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+}
+.wrapper .profile__page .profile__header .profile__info .status {
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  background: #6ab04c;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .profile__page .profile__main {
+  margin-top: 50px;
+}
+.wrapper .profile__page .profile__main .nav {
+  display: flex;
+  background: #252525;
+}
+.wrapper .profile__page .profile__main .nav__item {
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.wrapper .profile__page .profile__main .active {
+  background: #c740d3;
+}
+.wrapper .profile__page .profile__main .all__anime {
+  background: #252525;
+  padding: 40px;
+  font-size: 18px;
+}/*# sourceMappingURL=Profile.module.css.map */

@@ -1,0 +1,66 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .reg__page {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(31, 31, 31);
+  width: 90vw;
+  height: 100%;
+}
+.wrapper .reg__page h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.wrapper .reg__page .reg__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.wrapper .reg__page .reg__form a {
+  text-decoration: none;
+  color: #A040D3;
+}
+.wrapper .reg__page .reg__form input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 40px;
+  border-bottom: 3px solid rgb(20, 20, 20);
+  font-size: 18px;
+  color: #fff;
+  background: transparent;
+}
+.wrapper .reg__page .reg__form button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: 0 10px 30px rgba(191, 61, 203, 0.34);
+  background: #A040D3;
+  border: none;
+  color: white;
+  width: 280px;
+  height: 45px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: 700;
+}
+.wrapper .reg__page .reg__form button:hover {
+  box-shadow: none;
+  background: #5d0960;
+}/*# sourceMappingURL=Login.module.css.map */
